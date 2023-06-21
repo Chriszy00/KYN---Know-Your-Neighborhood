@@ -1,0 +1,11 @@
+.bg {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(49, 47, 53, 0.4),
+    rgba(9, 47, 53, 0.4)
+  ),
+    url("../images/img1.jpeg") no-repeat;
+  background-size: cover;
+}
+

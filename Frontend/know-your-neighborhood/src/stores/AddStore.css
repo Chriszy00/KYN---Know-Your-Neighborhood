@@ -1,0 +1,89 @@
+.input-txt {
+    font-family: "Roboto-Slab, serif";
+    font-size: 16px;
+    color: #666; }
+  
+  img {
+    max-width: 100%; }
+  
+  a {
+    text-decoration: none; }
+  
+  :focus {
+    outline: none; }
+  
+  .wrapper {
+    min-height: 100vh;
+    position: relative;
+    background: url("../assets/images/img13.jpg") no-repeat right center;
+    background-size: cover; }
+  
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: 11.07%;
+    transform: translateY(-50%);
+    width: 511px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    background: url("../assets/images/bg-inner.png") repeat;
+    padding: 7px; }
+  
+  .form {
+    width: 100%;
+    padding: 57px 46px 55px;
+    background: #fff; }
+  
+  .h3-style {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Poppins-Medium";
+    color: #3e91f7;
+    letter-spacing: 3px;
+    margin-bottom: 22px;
+    font-weight: 500; }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 25px; }
+    .form-row.last {
+      margin-bottom: 22px; }
+    .form-row .form-wrapper {
+      width: 50%; }
+      .form-row .form-wrapper:first-child {
+        margin-right: 25px; }
+  
+  .form-wrapper {
+    position: relative; }
+    .form-wrapper label {
+      display: block;
+      font-family: "Roboto-Slab";
+      font-size: 18px;
+      color: #4c4c4c;
+      margin-bottom: 8px; }
+    .form-wrapper i.zmdi-chevron-down {
+      position: absolute;
+      right: 16px;
+      top: 42px;
+      font-size: 15px;
+      color: #666; }
+    .form-wrapper span.lnr-calendar-full {
+      position: absolute;
+      left: 16px;
+      font-size: 15px;
+      color: #666;
+      top: 43px; }
+  
+  .form-control {
+    border: 1px solid #e6e6e6;
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 0 14px; }
+    .form-control.datepicker-here {
+      padding-left: 39px; }
+  
+  
