@@ -1,0 +1,19 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.bgs {
+  background-image:linear-gradient(
+    90deg,
+    transparent,
+    rgba(49, 47, 53, 0.4),
+    rgba(9, 47, 53, 0.4)
+  ), url("../../assets/images/img3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
